@@ -1,0 +1,19 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Your custom styles */
+:root {
+    --bs-primary: #FA812F;
+}
+
+/* Small overrides */
+.bi { font-size: 1.25rem; }
+
+/* Safety: prevent inline SVGs from scaling to full width when utility classes are missing.
+   This keeps icons a reasonable size even if templates still include Tailwind-style classes. */
+svg {
+    max-width: 48px;
+    max-height: 48px;
+    height: auto;
+}

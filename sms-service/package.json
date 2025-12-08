@@ -1,0 +1,11 @@
+{
+  "name": "bayan-ease-sms-service",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "sms-service.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "serialport": "^12.0.0",
+    "@serialport/parser-readline": "^12.0.0"
+  }
+}
